@@ -1,0 +1,109 @@
+#fon {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(assets/option\ 2.png);
+    mix-blend-mode: luminosity;
+    opacity: 0.28;
+}
+
+.catframe {
+    position: absolute;
+    width: 639px;
+    height: 479px;
+    left: 51%;
+    top: 130px;
+    transform: translate(-50%, 0%);
+}
+
+.catcenter {
+    position: absolute;
+    width: 639px;
+    height: 479px;
+    left: 0;
+    top: 0;
+
+    background-image: url(assets/giphy.gif);
+    /* Center the image */
+    background-position: center;
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+    /* Resize the background image to cover the entire container */
+    background-size: cover;
+    -webkit-mask-image: url(assets/ellipse-2.png);
+    mask-image: url(assets/ellipse-2.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+/* .rectumlight {
+    z-index: 9999;
+    position: absolute;
+    width: 639px;
+    height: 479px;
+    left: 0;
+    top: 0;
+
+    background: radial-gradient(42.39% 47.39% at 50.08% 47.39%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.26) 79.17%, rgba(255, 255, 255, 0.274) 79.18%, rgba(255, 255, 255, 0.47) 86.98%, #FFFFFF 100%);
+} */
+
+.button {
+    position: absolute;
+    width: 218px;
+    height: 104px;
+
+    background-color: #F1F1F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    border: 0;
+    padding: 13px 9px;
+
+    font-family: 'Stalinist One', cursive;
+    font-style: normal;
+    color: rgba(28, 88, 243, 1);
+    text-shadow: 10px 7px 2px rgba(0, 0, 0, 0.11);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    z-index: 9999;
+}
+
+.button:hover {
+    background-color: #d6d6d6
+}
+
+.button:active {
+    background-color: #d6d6d6;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    transform: translateY(3px);
+}
+
+.diana {
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: 'Sancreek';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+a:link {
+    color: #0C0D0D;
+}
+
+a:visited {
+    color: rgb(236, 16, 188);
+}
+
+a:hover {
+    color: #3b3e6f;
+}
+
+a:active {
+    color: rgba(28, 88, 243, 1);
+}
