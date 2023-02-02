@@ -14,7 +14,7 @@ body {
     width: 639px;
     height: 479px;
     left: 51%;
-    top: 130px;
+    top: 57px;
     transform: translate(-50%, 0%);
 }
 
@@ -83,7 +83,7 @@ body {
 
 .diana {
     position: absolute;
-    bottom: 35px;
+    top: 670px;
     left: 50%;
     transform: translate(-50%, 0%);
     font-family: 'Sancreek';
